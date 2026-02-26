@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from litellm import completion
-from prompts import SYSTEM_PROMPT
+from prompt_layer import SYSTEM_PROMPT
 
 # Load environment variables
 load_dotenv()

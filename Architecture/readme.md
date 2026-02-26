@@ -61,7 +61,7 @@ module3_architecture/
 │
 ├── input_layer.py
 ├── prompt_layer.py
-├── LLM_layer.py
+├── llm_layer.py
 ├── post_processing.py
 ├── pipeline.py
 ├── requirements.txt
