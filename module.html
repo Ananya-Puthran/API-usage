@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AI Module</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+<div class="sidebar" id="sidebar">
+
+<button class="close-btn" onclick="toggleSidebar()">☰</button>
+
+<h2 id="moduleTitle"></h2>
+<p id="moduleDescription"></p>
+
+<div id="themeButtons"></div>
+
+</div>
+
+<div class="chat-container">
+
+<div id="messages" class="messages"></div>
+
+<div class="input-area">
+
+<input id="userInput" placeholder="Ask something..." />
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/modules.js"></script>
+<script src="js/chat.js"></script>
+
+</body>
+</html>
